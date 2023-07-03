@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "Top Films"
 include ':app'
 include ':feature-poster'
+include ':core-network'

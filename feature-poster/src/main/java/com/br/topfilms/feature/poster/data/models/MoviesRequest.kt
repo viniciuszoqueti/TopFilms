@@ -1,7 +1,6 @@
-package com.br.topfilms.features.films.data.network.models
+package com.br.topfilms.feature.poster.data.models
 
 import com.google.gson.annotations.SerializedName
-
 
 data class MoviesRequest(
     val page: Long,
@@ -9,7 +8,7 @@ data class MoviesRequest(
     @SerializedName("total_pages")
     val totalPages: Long,
     @SerializedName("total_results")
-    val totalResults: Long
+    val totalResults: Long,
 ) {
     data class Result(
         val id: Long,
@@ -33,6 +32,6 @@ data class MoviesRequest(
         @SerializedName("vote_average")
         val voteAverage: Double,
         @SerializedName("vote_count")
-        val voteCount: Long
+        val voteCount: Long,
     )
 }

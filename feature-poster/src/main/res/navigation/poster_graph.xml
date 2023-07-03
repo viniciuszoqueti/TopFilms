@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/posterFragment"
-        android:name="com.br.topfilms.feature.poster.PosterFragment"
+        android:name="com.br.topfilms.feature.poster.presentation.PosterFragment"
         android:label="fragment_poster"
         tools:layout="@layout/fragment_poster" />
 </navigation>
